@@ -1,0 +1,75 @@
+body {
+    background: floralwhite;
+    font-family: arial, helvetica, sans-serif;
+}
+
+#container {
+    width: 900px;
+    min-height: 600px;
+    margin: 5px auto;
+}
+
+header,
+footer,
+aside,
+article,
+main {
+    padding: 15px;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    color: darkmagenta;
+    font-weight: 800;
+}
+
+h2,
+h3,
+h4 {
+    color: darkmagenta;
+    font-weight: 300;
+}
+
+h2 {
+    text-align: center;
+}
+
+ul {
+    list-style: square;
+}
+
+.left-image {
+    float: left;
+    padding: 10px 15px 10px 0px;
+    width: 25%;
+    height: auto;
+}
+
+aside {
+    width: 25%;
+    clear: both;
+    float: right;
+    border-left: 2px solid darkmagenta;
+    padding-left: 15px;
+    min-height: 1200px;
+    margin-left: 15px;
+}
+
+a {
+    color: darkmagenta;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    font-size: .8em;
+}
+
+#bear {
+    width: 60%;
+    height: auto;
+    margin: 5px 30px;
+}
